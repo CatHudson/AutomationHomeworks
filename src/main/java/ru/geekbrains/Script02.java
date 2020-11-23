@@ -20,9 +20,9 @@ public class Script02 {
 
         String temp = driver.findElement(By.xpath("//div[@class='temp fact__temp fact__temp_size_s']/span[@class='temp__value']")).getText();
 
-        System.out.println("Сейчас в Петербурге температура " + temp);
         Thread.sleep(5000);
         driver.quit();
+        System.out.println("Сейчас в Петербурге температура " + temp);
 
     }
 }
