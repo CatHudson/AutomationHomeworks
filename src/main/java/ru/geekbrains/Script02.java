@@ -12,7 +12,7 @@ public class Script02 {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://yandex.ru/");
+        driver.get("https://yandex.ru/") ;
 
         driver.manage().window().maximize();
 
